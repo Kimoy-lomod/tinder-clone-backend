@@ -22,7 +22,7 @@ mongoose.connect(connection_url, {
 
 // API Endpoints
 app.get("/", (req, res) => {
-  res.status(200).send("Hello Kimoy!");
+  res.status(200).send("Hello Kimoy! Congrats on deploying live from heruko");
 });
 
 app.post("/tinder/cards", (req, res) => {
